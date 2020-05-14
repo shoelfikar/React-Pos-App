@@ -1,0 +1,61 @@
+*{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.modaladd{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+.login-img img{
+width: 150px;
+height: 150px;
+position: absolute;
+top: -80px;
+left: 150px;
+}
+.formmodal{
+    width: 430px;
+    height: 470px;
+    background-color: #fff;
+    margin: 120px auto;
+    border-radius: 10px;
+    position: relative;
+}
+.h1{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    /* margin-left: -20px; */
+}
+.form-modal form{
+    padding-top: 10px;
+    margin-left: 40px;
+}
+.button button{
+    width: 350px;
+    height: 45px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background: #57CAD5;
+    border: 1px solid #57CAD5;;
+}
+.alert strong{
+font-size: 14px;
+}
+.col-md-12 p{
+text-align: center;
+margin-left: -30px;
+}
+.hide{
+    display: none;
+}
+.alert{
+    height: 50px;
+    padding-left: 15px;
+}
+.alert .close{
+    line-height: 25px;
+}

@@ -1,0 +1,109 @@
+.myhome{
+  width: 100vw;
+  height: 100vh;
+  /* background-color: aqua; */
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.mymenu{
+  /* background-color: blue; */
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+}
+.navbar-as{
+  width: 100%;
+  height: 80px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  /* background-color: chocolate; */
+}
+.menu-food{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  /* background-color: cornflowerblue; */
+}
+.sidebar{
+  width: 10%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  z-index: 999;
+  /* background-color: darkblue; */
+}
+.food{
+  height: 100vh;
+  width: 90%;
+  overflow-y: scroll;
+  /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); */
+  /* overflow: hidden; */
+}
+.food-main{
+  /* margin-top: 15px; */
+  margin-bottom: 100px;
+  /* padding-bottom: 20px; */
+  display: flex;
+  flex-wrap: wrap;
+  background: rgba(190, 195, 202, 0.3);
+}
+.food-item{
+  margin-top: 15px;
+  margin-left: 30px;
+  width: 270px;
+  height: 250px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.food-item:hover{
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+.food-item img{
+  width: 270px;
+  height: 190px;
+  object-fit: cover;
+}
+.food-item p, .food-item h3{
+  margin: auto;
+  /* text-align: center; */
+}
+.food-item p{
+  font-weight: bold;
+  font-size: 22px;
+}
+.food-item h3{
+  font-size: 18px;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  /* background: #888;  */
+  background: #7b7a7c8e;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  /* background: #555;  */
+  background: #bbb3b64d;
+}
+.cart{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+.cart-notif{
+  width: 100%;
+  height: 80px;
+  /* border-left: 1px solid #bbb3b64d; */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+.cart-item{
+  width: 100%;
+  height: 100vh;
+  /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); */
+  /* background-color: darkgrey; */
+}
